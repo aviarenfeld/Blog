@@ -10,4 +10,5 @@ Rails.application.routes.draw do
 
   get '/about', to: 'pages#about'
   get '/portfolio', to: 'pages#portfolio'
+  get '/resume', to: 'pages#resume'
 end

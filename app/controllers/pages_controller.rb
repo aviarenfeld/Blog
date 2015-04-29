@@ -3,6 +3,8 @@ class PagesController < ApplicationController
 	end
 	def portfolio
 	end
+	def resume
+	end
 end
 
 
