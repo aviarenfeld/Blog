@@ -5,7 +5,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 a {
@@ -21,11 +21,12 @@ p {
 #sidebar {
   width: 250px;
   position: fixed;
-  left: 0;
+  left: 0px;
+  right: 3em;
   top: 0;
   height: 100%;
   background: #ffffff;
-  padding: 7em 0 0 0;
+  padding: 5em 0 0 0;
   border-right: 3px solid #d6dce0;
   #logo {
     width: 40px;
@@ -63,9 +64,12 @@ p {
   .sign_in {
     position: absolute;
     right: 3em;
-    top: 80%;
-    font-size: .8em;
+    top: 100%;
+    font-size: 1em;
     color: #9eafba;
+  }
+  #alert {
+    padding-left: 5px;
   }
 }
 
@@ -95,16 +99,16 @@ p {
 #main_content {
   margin-left: 250px;
   #profile {
-    width: 50px;
+    width: 0px;
     position: absolute;
-    right: 5em;
-    top: 5em;
+    right: 0em;
+    top: 0em;
   }
   p {
     padding: 1px;
   }
   #header {
-    padding: 1.5em 3em;
+    padding: 1em 1em;
     border-bottom: 3px solid #d6dce0;
     background: #f5f7f9;
     color: #9eafba;
@@ -205,32 +209,48 @@ p {
     }
   }
   #page_wrapper {
-      padding: 2em;
-    #profile_image {
-      width: 190px;
-      height: 190px;
-      float: left;
-      margin-right: 2em;
-      padding: none;
+      padding: 1em;
+    #portfolio_image{
+      padding: 5px;
+      margin: 5px;
       img {
         padding: 0em;
-        width: 100%;
-        height: 100%;
-        border-radius: 7em;
+        max-width: none;
+        border-radius: 2em;
+      }
+    }
+    #profile_image {
+      float: left;
+      margin-right: 1em;
+      margin-left: 0.2em;
+      margin-top: 1em;
+      margin-bottom: 5px;
+      img {
+        padding: 0em;
+        width: 280px;
+        height: 200px;
+        max-width: none;
+        border-radius: 2em;
       }
     }
     #content {
       h1 {
-        padding: 0em;
-        font-weight: 500;
+        padding: 5px;
+        font-weight: 100px;
+        margin-top: 10px;
+      }
+      h2 {
+        margin-left: 0em;
+        padding-top: 20px;
+        font-weight: 300;
       }
       li{
         padding: 1em;
       }
       p {
-        padding: 1em;
-        font-size: 1.1em;
-        line-height: 1.75;
+        padding: 5px;
+        font-size: 1em;
+        line-height: 1.25;
       }
       a {
         color: #33acb7;
