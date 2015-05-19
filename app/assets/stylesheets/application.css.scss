@@ -7,6 +7,9 @@ html, body {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
+h2{
+  padding-left: 10px;
+}
 
 a {
   text-decoration: none;
@@ -224,7 +227,7 @@ p {
       margin-right: 1em;
       margin-left: 0.2em;
       margin-top: 1em;
-      margin-bottom: 5px;
+      margin-bottom: 0px;
       img {
         padding: 0em;
         width: 280px;
@@ -241,14 +244,14 @@ p {
       }
       h2 {
         margin-left: 0em;
-        padding-top: 20px;
+        padding-top: 0px;
         font-weight: 300;
       }
       li{
         padding: 1em;
       }
       p {
-        padding: 5px;
+        padding: 0px;
         font-size: 1em;
         line-height: 1.25;
       }
